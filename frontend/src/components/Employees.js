@@ -25,9 +25,9 @@ const Employees = () => {
 
 
 
-    }, [])
+    }, [setEmployees])
 
-    console.log(employees)
+    //console.log(employees)
     return (
         <>
             <Header link='Register New Employee' to='/' />
